@@ -1,0 +1,110 @@
+body{
+    background-color: #100C0D;
+    color:#E3DCD2;
+}
+
+.App{
+    padding: 20px 60px;
+}
+.App__holder{
+    display: flex;
+    justify-content: space-between;
+}
+.App__pages{
+    padding: 0 20px;
+    flex: 0 1 80%;
+}
+.App__list ul{
+    background-color: #CC8B65;
+    border-radius: 15px;
+    padding: 10px 35px;
+    margin: 0 auto;
+}
+.App__list ul{
+    list-style: none;
+}
+.App__link{
+    text-align: center;
+    color:inherit;
+    margin-bottom: 10px;
+}
+a{    
+    color:rgb(45, 44, 32);
+    text-decoration: none;
+}
+.App__link:hover{
+    background-color: #e3dcd29d;
+    transition: ease-in-out .6s;
+    border-radius: 5px;
+}
+.App__link:focus{
+    background-color: #e3dcd29d;
+}
+.App__content{
+    display: flex;
+    justify-content: space-between;
+}
+.App__logo{
+    width: 40px;
+    animation-name: rotation;
+    animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.App__home{
+    width: 40px;
+}
+.App-code{
+    padding: 10px 20px;
+    color:#544d3d;
+    background-color: #E3DCD2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.State__counter{
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.State__counter p{
+    font-size: 20px;
+}
+.btn{
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #013328;
+    color:#E3DCD2;
+    border: 2px solid #CC8B65;
+}
+
+.LyfeCycle__text ol li{
+    margin-bottom: 20px;
+}
+
+.Event__button-holder{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Event__button{
+    font-size: 20px;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: #013328;
+        color: #E3DCD2;
+        border: 2px solid #CC8B65;
+        text-align: center;
+}
+
